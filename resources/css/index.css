@@ -3,6 +3,8 @@
 h1 {
     position: fixed;
     bottom: auto;
+    padding-left: 20px;
+    z-index: 0;
 }
 
 body {
