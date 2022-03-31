@@ -3,6 +3,12 @@
     #disable {
         display: none;
     }
+
+    #mobile {
+        padding: auto;
+        display: inline;
+        white-space: nowrap;
+    }
     footer .mobile {
         position: fixed;
         bottom: 20px;
@@ -24,6 +30,11 @@
         margin: 0 0;
         text-align: center;
     }
+    .mobile #banner {
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+    }
 }
 
 /*element selectors*/
@@ -44,7 +55,7 @@ body {
 
 p {
     position: relative;
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
     text-align: left;
     padding: 1%;
