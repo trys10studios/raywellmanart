@@ -5,6 +5,7 @@
     }
     footer #mobile {
         bottom: 20px;
+        width: 100%;
     }
     #mobile{
         white-space: nowrap;
@@ -15,7 +16,15 @@
         position: relative;
     }
     .mobile {
-        width: 100%;
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .images .mobile{
+        height: 50%;
+        width: 75%;
+        padding: 40px 0;
+        margin: 0 0;
         text-align: center;
     }
 }
@@ -33,7 +42,7 @@ body {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 1;
-    margin: 0px 0;
+    margin: 0px auto;
 }
 
 p {
@@ -72,6 +81,7 @@ footer div {
     height: 250px;
     padding: 40px 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .banner {
