@@ -4,19 +4,18 @@
         display: none;
     }
 
-    #mobile {
-        display: inline;
-    }
-    footer .mobile {
-        position: fixed;
-        width: 100%;
-        padding-bottom: 0;
-        z-index: 1;
+    footer #mobile {
+        width: auto;
+        position: relative;
+        bottom: 40px;
+        padding: auto;
     }
 
     .mobile {
         text-align: center;
+        padding: auto 10px;
         width: auto;
+        height: auto;
         text-align: center;
         margin: 0 auto;
     }
@@ -31,6 +30,9 @@
         width: 100%;
         height: 100%;
         padding: 10px 0;
+    }
+    .backgroundColor {
+        background-color: rgb(202, 255, 237);
     }
 }
 
@@ -65,16 +67,16 @@ footer{
     width: 100%;
     height: 20px;
     z-index: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: auto 0;
 }
 
-footer div {
+footer div{
     display: inline;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
 }
-
 
 /*class selectors*/
 
